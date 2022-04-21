@@ -1,0 +1,116 @@
+
+<html>
+<head>
+	<title>Grounded - About Us </title>
+    
+	<!-- Grounded -->
+	<link href="img/Grounded_logo.png" rel="shortcut icon"/>
+
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+
+
+</style>
+
+</head>
+<body>
+
+
+	<!-- header section -->
+    
+
+		<div class="header-warp">
+            <center>
+            <p id="date"></p>
+                </center>
+			<a href="home.html" class="site-logo">
+				<img src="img/Grounded_logo.png" style="width: 100px; " alt="">
+			</a>
+            <div class="dropdown">
+			<button class="dropbtn" href="home.html">Home</button>
+			 <div class="dropdown-content">
+				<a href="home.html">Home</a>
+		  	<a href="about.html">About Us </a>
+		  	<a href="history.html">History</a>
+				<a href="cultivation.html">Cultivation</a>
+				<a href="roasting.html">Roasting</a>
+				<a href="brewing.html">Brewing</a>
+         </div>
+			</div>
+             
+		</div>
+
+
+
+	<!-- header section end -->
+
+	<!--about us page -->
+	<section class="page">
+
+			<div class="page-title">
+                <br><br><br>
+				<h2>Grounded</h2>
+				<p>The Real Experts in Coffee</p>
+			</div>
+		<p id="about"> We are GROUNDED, we're here to provide a great infromation about coffee. Starting from history and ending in the brewing methods.
+        <br><br>
+        We have a passion and love for  coffee as we see it a part of each day that passes by<br><br>
+        Hope our site can provide you with the needed information.</p>
+        <center>
+						<img src="img/Grounded_logo.png" style="height: 300px; width:300px">
+        </center>
+<center>
+<div class="w3-bar">
+  <a href="home.html" class="w3-button">1</a>
+  <a href="about.html" class="w3-button">2</a>
+  <a href="history.html" class="w3-button">3</a>
+  <a href="cultivation.html" class="w3-button">4</a>
+  <a href="roasting.html" class="w3-button">5</a>
+   <a href="brewing.html" class="w3-button">6</a>
+</div>
+        </center>
+
+	</section>
+	<!-- about us page end -->
+
+	<!-- Footer section  -->
+	<footer class="footer-section ">
+
+				<div  class="footer-text">
+					<h2 >Get in touch</h2>
+					<p> Let us think what you think about our webstie or anything in your mind that's all about coffee</p>
+				</div>
+
+					<form class="contact-form">
+						<div>
+							<div >
+								<input type="text" placeholder="Your Name">
+							</div>
+							<div >
+								<input type="text" placeholder="Your Email">
+							</div>
+							<div>
+								<input type="text" placeholder="Subject">
+							</div>
+							<div>
+								<textarea placeholder="Message"></textarea>
+								<button class="site-btn sb-light" type="submit" onclick="openPage()">send message <img src="img/icons/arrow-right-white.png" alt=""></button>
+							</div>
+						</div>
+					</form>
+	</footer>
+	<!-- Footer section end -->
+
+<script>
+function openPage() {
+
+  window.open("messageConfirmation.html");
+}
+    var d = new Date();
+document.getElementById("date").innerHTML = d;
+</script>
+
+	</body>
+</html>

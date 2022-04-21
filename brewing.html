@@ -1,0 +1,149 @@
+
+<html>
+<head>
+	<title>Grounded- Brewing</title>
+
+	<!-- Grounded -->
+	<link href="img/Grounded_logo.png" rel="shortcut icon"/>
+
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+
+	<!-- header section -->
+		<div class="header-warp">
+            <center>
+            <p id="date"></p>
+                </center>
+			<a href="home.html" class="site-logo">
+				<img src="img/Grounded_logo.png" style="width: 100px; " alt="">
+			</a>
+            <div class="dropdown">
+			<button class="dropbtn" href="home.html">Home</button>
+			 <div class="dropdown-content">
+				<a href="home.html">Home</a>
+		  	<a href="about.html">About Us </a>
+		  	<a href="history.html">History</a>
+				<a href="cultivation.html">Cultivation</a>
+				<a href="roasting.html">Roasting</a>
+				<a href="brewing.html">Brewing</a>
+         </div>
+			</div>
+             
+		</div>
+	<!-- header section end -->
+
+
+	<section class="page">
+	<br><br><br>
+
+				<h2 class="big-title">Brewing</h2>
+
+			<p> <strong>Brewed Coffee</strong> is made by pouring hot water onto ground coffee beans, then allowing to brew.</p>
+		<br>
+		<br><br>
+		<hr><hr><br><br>
+        <p>Examples of Brewed Coffee</p>
+        <hr><hr><br><br>
+		<center>
+<table >
+<tr><!--1-->
+<td>
+<h4> 1. Cappuccino </h4>
+<br>
+<p>First, steam the milk. Heat 1 cup of milk in a 2-quart saucepan over medium heat. Let the milk simmer until bubbles form around the edges, but don’t boil the milk. Remove the pan from heat and set it on a flat surface.
+Next, whip the milk with an electric mixer, increasing the speed as the milk begins to thicken. Continue mixing until you get the desired volume of froth.
+Now, make the coffee. Measure 2 tablespoons of grounds for 5 to 6 ounces of water. Try using Folgers French Roast Coffee for a full-bodied taste, or make it with Folgers® Classic Decaf Coffee for less caffeine. You can brew the coffee in an automatic drip coffeemaker or a French press.
+Now, make the cappuccino! A classic cappuccino calls for 1/3 espresso, 1/3 steamed milk, and 1/3 foam. You can mix it up by using 2 or 3 tablespoons of flavored syrups or even different kinds of milk, like chocolate or vanilla.</p>
+</td>
+<td>
+	<img src="img/Cappuccino.jpg" alt="Cappuccino">
+</td>
+</tr>
+
+<tr><!--2-->
+ <td>
+		 <h4>2. White Mokae</h4>
+		 <p>I use strong brewed coffee or espresso. If you want to brew fresh, you go for it. If you want to grind your beans and go all out, fantastic. If you own a bottle of Starbucks White Chocolate Syrup and want to use that? Sure! (How many people actually do??)
+
+For me? More often than not I’m using the rest of the morning’s coffee, because why waste it? It’s still perfectly fine and will reheat just fine in the pot with my white chocolate mixture.
+
+I use good quality white chocolate and whole milk to make a white hot chocolate base, then stir in my prepared coffee or espresso. Top with all the extras, and pour that soul-healing caffeine right into my body. Easy. Quick. Delicious.</p>
+ </td>
+ <td>
+	 <img src="img/White moka.jpg" alt="White moka" height="200px" >
+ </td>
+</tr>
+<tr><!--3-->
+	 <td>
+		 <h4>3. Black Coffee </h4>
+		 <p>It should come as no surprise that making black coffee is fairly simple. No matter what method you’re using, simply grind up your coffee (to the right coarseness, of course) brew a pot, and, hey presto, you’ve got black coffee!</p>
+ </td>
+ <td>
+	 <img src="img/Black Coffee.jpg" alt="Black Coffee">
+ </td>
+</tr>
+
+
+		</table>
+				</center>
+
+</div>
+</div>
+<br><br>
+		
+		<center>
+		<div class="w3-bar">
+  <a href="home.html" class="w3-button">1</a>
+  <a href="about.html" class="w3-button">2</a>
+  <a href="history.html" class="w3-button">3</a>
+  <a href="cultivation.html" class="w3-button">4</a>
+  <a href="roasting.html" class="w3-button">5</a>
+   <a href="brewing.html" class="w3-button">6</a>
+</div>
+        </center>
+
+		</section>
+
+	<!-- Footer section  -->
+<footer class="footer-section ">
+
+				<div  class="footer-text">
+					<h2 >Get in touch</h2>
+					<p> Let us think what you think about our webstie or anything in your mind that's all about coffee</p>
+				</div>
+
+					<form class="contact-form">
+						<div>
+							<div >
+								<input type="text" placeholder="Your Name">
+							</div>
+							<div >
+								<input type="text" placeholder="Your Email">
+							</div>
+							<div>
+								<input type="text" placeholder="Subject">
+							</div>
+							<div>
+								<textarea placeholder="Message"></textarea>
+								<button class="site-btn sb-light" type="submit" onclick="openPage()">send message <img src="img/icons/arrow-right-white.png" alt=""></button>
+							</div>
+						</div>
+					</form>
+	</footer>
+	<!-- Footer section end -->
+
+<script>
+function openPage() {
+
+  window.open("messageConfirmation.html");
+}
+    var d = new Date();
+document.getElementById("date").innerHTML = d;
+</script>
+
+	</body>
+</html>

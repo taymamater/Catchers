@@ -1,0 +1,93 @@
+
+<html>
+<head>
+	<title>Grounded - Messege </title>
+	<!-- Grounded -->
+	<link href="img/Grounded_logo.png" rel="shortcut icon"/>
+
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="css/style.css"/>
+
+
+</head>
+<body>
+
+
+	<!-- header section -->
+	<div class="header-warp">
+            <center>
+            <p id="date"></p>
+                </center>
+			<a href="home.html" class="site-logo">
+				<img src="img/Grounded_logo.png" style="width: 100px; " alt="">
+			</a>
+            <div class="dropdown">
+			<button class="dropbtn" href="home.html">Home</button>
+			 <div class="dropdown-content">
+				<a href="home.html">Home</a>
+		  	<a href="about.html">About Us </a>
+		  	<a href="history.html">History</a>
+				<a href="cultivation.html">Cultivation</a>
+				<a href="roasting.html">Roasting</a>
+				<a href="brewing.html">Brewing</a>
+         </div>
+			</div>
+             
+		</div>
+	<!-- header section end -->
+
+	<!--confirmation page -->
+	<section class="page">
+     <div>
+					<center>
+					<br><br><br><br><br>
+				<h1 class="msg">Your message was sent successfully!</h1>
+                        <br>
+				<p class="msg">We will be in touch soon &#128525;</p>
+                        <img src="img/Grounded_logo.png"  width="800"alt="">
+				</center>
+      </div>
+			
+	</section>
+	<!-- confirmation page end -->
+
+	<!-- Footer section  -->
+	<footer class="footer-section ">
+
+				<div  class="footer-text">
+					<h2 >Get in touch</h2>
+					<p> Let us think what you think about our webstie or anything in your mind that's all about coffee</p>
+				</div>
+			
+					<form class="contact-form">
+						<div>
+							<div >
+								<input type="text" placeholder="Your Name">
+							</div>
+							<div >
+								<input type="text" placeholder="Your Email">
+							</div>
+							<div>
+								<input type="text" placeholder="Subject">
+							</div>
+							<div>
+								<textarea placeholder="Message"></textarea>
+								<button class="site-btn sb-light" type="submit" onclick="openPage()">send message <img src="img/icons/arrow-right-white.png" alt=""></button>
+							</div>
+						</div>
+					</form>
+	</footer>
+	<!-- Footer section end -->
+
+<script>
+function openPage() {
+
+  window.open("messageConfirmation.html");
+}
+        var d = new Date();
+document.getElementById("date").innerHTML = d;
+
+</script>
+
+	</body>
+</html>
